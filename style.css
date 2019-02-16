@@ -1,0 +1,192 @@
+body {
+  /* background-image: url(/images/grayBackground.jpg); */
+  background-position: center;
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  background-color: #lightgray;
+}
+
+.page-content {
+  margin: 0 5%;
+  background-color: gray;
+  /* background-color: #320a5c; */
+  color: white;
+  padding: 10px;
+  font-family: "Montserrat";
+}
+
+img {
+  width: 100%;
+  height: auto;
+  /* padding: 0 50px; */
+}
+
+.bg-dark {
+  background-color: #1f1f1f !important;
+}
+
+@media only screen and (max-width: 990px) {
+  .navbar {
+    /* padding: .5rem 50% !important; */
+    /* justify-content: center !important; */
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .navbar-brand {
+    margin: 1rem;
+    font-family: "Righteous", cursive;
+    font-size: 40px;
+    display: none;
+  }
+
+  .nav-link {
+    margin: 1rem !important;
+    /* padding: 25px 5px !important; */
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 990px) {
+  .navbar {
+    padding: .5rem 50% !important;
+    justify-content: center !important;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .navbar-brand {
+    margin: 1rem;
+    font-family: "Righteous", cursive;
+    font-size: 40px;
+  }
+
+  .nav-link {
+    margin: 1rem !important;
+    padding: 25px 5px !important;
+    font-size: 20px;
+  }
+
+  .hidden {
+    display: none;
+  }
+}
+
+.launch {
+  border-top: 1px solid #1f1f1f;
+  margin-top: 20px;
+  padding: 15px 3rem;
+}
+
+#launch-results {
+  padding: 2rem;
+}
+
+.launch h4 {
+  font-family: "Righteous", cursive;
+}
+
+.launch p {
+  font-weight: 300;
+}
+
+.centered {
+  text-align: center;
+}
+
+h3 {
+  /* font-family: "Righteous", cursive; */
+  font-weight: bold;
+  font-size: 60px;
+}
+
+em {
+  font-size: 12px;
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  /* display: grid; */
+  width: 100%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+/* The Masonry Container */
+.masonry {
+  padding-top: 1em;
+  max-width: 90%;
+  position: relative;
+  left: 5%;
+  column-count: 2;
+  column-gap: 1em;
+}
+
+/* The Masonry Brick */
+.item {
+  display: inline-block;
+  background: gray;
+  margin: 0 0 1em;
+  width: 100%
+}
+
+#dailyPicture {
+  text-align: center;
+}
+
+#dailyPicture img {
+  padding: 0 50px;
+}
+
+footer {
+  background-color: #1f1f1f;
+  padding: 1rem;
+  align-items: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 0 45%;
+}
+
+footer a:hover {
+  text-decoration: none;
+  font-color: white;
+}
+
+/* .table {
+  color: black;
+} */
